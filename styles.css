@@ -14,7 +14,7 @@ font-family: 'Rajdhani', sans-serif;
 
 /* background color */
 body {
-  background-color: #f7f9fb; 
+  background-color: #EEEFF1; 
 }
 
 .nav-item{
@@ -44,8 +44,10 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 20px;
-  padding: 10px;
+  margin: 0px;
+  padding: 20px;
+  border: solid 3px;
+  background-color: #6C7767;
   flex-wrap: wrap;
 }
 .container { /*navigation*/
@@ -70,9 +72,8 @@ body {
  }
 .box-1 { /*title heading*/
    justify-content: center;
-   background-color: #B23E34;
-   padding: 20px;
-   border: 30px;
+   background-color: #687864;
+  
 }
 
 /*Photos*/
@@ -81,7 +82,7 @@ body {
  margin:0;
 }
 .icon {
-  border: 5px solid #202C22;
+  border: 5px solid #6C7767;
   margin: 40px;
 }
 .mapPhoto {
@@ -94,7 +95,7 @@ body {
 h1 {
   font-family: 'Roboto Mono', monospace;
   font-weight: 500;
-  font-size: 55px;
+  font-size: 70px;
   color: #F8F7F7;
 }
 
@@ -105,7 +106,7 @@ h1 {
   position: fixed;
   size: 20px;
   height: 40px;
-  background-color: #B23E34;
+  background-color: #6C7767;
   font-family: 'Roboto Mono', monospace;
   color: white;
   bottom: 0px;
