@@ -45,9 +45,8 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0px;
-  padding: 20px;
-  border: solid 3px;
-  background-color: #6C7767;
+  padding: 20px;;
+  background-color: #eeeff1;
   flex-wrap: wrap;
 }
 .container { /*navigation*/
@@ -72,7 +71,7 @@ body {
  }
 .box-1 { /*title heading*/
    justify-content: center;
-   background-color: #687864;
+   background-color: #eeeff1;
   
 }
 
@@ -82,8 +81,8 @@ body {
  margin:0;
 }
 .icon {
-  border: 5px solid #6C7767;
-  margin: 40px;
+  border: 3px solid #5a7e9c;
+  margin: 5px;
 }
 .mapPhoto {
  padding: 20px;
@@ -95,8 +94,8 @@ body {
 h1 {
   font-family: 'Bebas Neue', cursive;
   font-weight: 500;
-  font-size: 100px;
-  color: #F8F7F7;
+  font-size: 7em;
+  color: #364A29;
 }
 
 
