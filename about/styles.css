@@ -1,0 +1,144 @@
+/*   Font Collection
+font-family: 'Roboto Mono', monospace;
+font-family: 'Dosis', sans-serif;
+font-family: 'Rajdhani', sans-serif;
+
+ 
+ 
+#dbb476 
+*/
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:
+  border-box;
+}
+
+/* background color */
+body {
+  background-color: #EEEFF1; 
+  font-size: 100%;
+}
+
+.nav-item{
+  font-family: 'Dosis', sans-serif;
+  font-size: 20px;
+ }
+
+.menu {
+  margin:0;
+  padding:0;
+  width:100%;
+  justify-content: center;
+}
+.collapse navbar-collapse{
+
+ text-align: center;
+}
+#navbarResponsive {
+ justify-content: center;
+}
+.navbar-expand-lg {
+ justify-content: center;
+}
+/*flexbox*/
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 20px;;
+  flex-wrap: wrap;
+}
+.container { /*navigation*/
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  
+}
+.container1{ /*Words*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
+  flex-wrap: wrap
+ }
+ .banner{
+
+}
+ .master { /*all main content*/
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+ }
+.box-1 { /*title heading*/
+   justify-content: center; 
+}
+
+/*Photos*/
+.navbar-brand {
+ padding:0;
+ margin:0;
+}
+.icon {
+  border: 5px solid #6C7767;
+  margin: 40px;
+}
+.mapPhoto {
+ padding: 20px;
+ margin: 20px;
+}
+
+
+/* text */
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 500;
+   font-size: 130px;
+   color: #364A29;
+}
+h3 {
+   color: #96BBDA;
+   font-family: 'Roboto Mono', monospace;
+}
+
+
+
+
+
+
+
+.line6 {
+ padding-bottom: 50px;
+}
+
+
+
+/* footer */
+.footer {
+  position: fixed;
+  size: 20px;
+  height: 40px;
+  background-color: #6C7767;
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+  padding: 10px;
+}
+a:link {
+  color: #F8F7F7;
+}
+a:visited {
+  color: #F8F7F7;
+}
+a:hover {
+  color: #B23E34;
+}
