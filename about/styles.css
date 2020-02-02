@@ -16,6 +16,66 @@ font-family: 'Rajdhani', sans-serif;
   border-box;
 }
 
+
+@media only screen and (max-width: 400px) {
+.container1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+.header{
+ padding-bottom: 0px;
+}
+
+.content{
+ display: flex;
+ justify-content:center;
+ align-items: center;
+ flex-direction:column;
+ padding-right: 20px;
+ padding-bottom: 20px;
+ padding-left: 25px;
+}
+h1{
+ font-size:40px;
+}
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+.content {
+ padding-left: 60px;
+ padding-right: 60px;
+ padding-bottom: 20px;
+}
+h1{
+ font-size:80px;
+}
+}
+
+@media only screen and (min-width: 961px) {
+
+
+.content {
+ padding-left: 90px;
+ padding-right: 90px;
+ padding-bottom: 30px;
+}
+
+h1{
+  font-size:100px;
+}
+}
+
+
+
+
+
+
 /* background color */
 body {
   background-color: #EEEFF1; 
@@ -34,7 +94,6 @@ body {
   justify-content: center;
 }
 .collapse navbar-collapse{
-
  text-align: center;
 }
 #navbarResponsive {
@@ -44,13 +103,15 @@ body {
  justify-content: center;
 }
 /*flexbox*/
+
+
+
 .header{
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   margin: 0px;
-  padding: 20px;;
   flex-wrap: wrap;
 }
 .container { /*navigation*/
@@ -59,18 +120,11 @@ body {
   text-align: center;
   
 }
-.container1{ /*Words*/
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  margin: 20px;
-  padding: 10px;
-  flex-wrap: wrap
- }
- .banner{
 
-}
+
+
+
+
  .master { /*all main content*/
    display: flex;
    flex-direction: row;
@@ -85,36 +139,34 @@ body {
  padding:0;
  margin:0;
 }
-.icon {
-  border: 5px solid #6C7767;
-  margin: 40px;
-}
-.mapPhoto {
- padding: 20px;
- margin: 20px;
-}
 
 
 /* text */
 h1 {
   font-family: 'Bebas Neue', cursive;
   font-weight: 500;
-   font-size: 130px;
    color: #364A29;
 }
 h3 {
    color: #96BBDA;
-   font-family: 'Roboto Mono', monospace;
+   font-family: 'Bebas Neue', cursive;
+    font-size:40px;
+   letter-spacing: .15em;
+}
+.list, .text {
+ font-family: 'Roboto Mono', monospace;
+  font-weight:100;
+  font-size: 20px;
+}
+.list {
+ padding-left: 60px;
+}
+.text {
+ padding-left: 25px;
 }
 
-
-
-
-
-
-
-.line6 {
- padding-bottom: 50px;
+.bottom-space {
+ padding-bottom: 30px;
 }
 
 
